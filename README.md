@@ -2,7 +2,7 @@
 
 ## Description
 
-This beginner-friendly project aims to help learners get hands-on experience in building a simple homepage using Django, HTML, CSS, and JavaScript. The project includes a navigation bar (navbar), a footer, and a photo gallery section. It serves as an introduction to web development with Django and the integration of frontend technologies. For a tutorial see https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=630s&ab_channel=ProgrammingwithMosh
+This beginner-friendly project aims to help learners get hands-on experience in building a simple homepage using Django, HTML, CSS, and JavaScript. The project includes a navigation bar (navbar), a footer, and a photo gallery section. It serves as an introduction to web development with Django and the integration of frontend technologies. 
 
 ## Prerequisites
 
