@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winnie</title>
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+    <script src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+    <header>
+        <h1>Winnie</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    
+    <div class="gallery">
+        <div class="slideshow">
+            <div class="slide"><img src="{% static 'images/winnie1.jpg' %}" alt="Image 1"></div>
+            <div class="slide"><img src="{% static 'images/winnie2.jpg' %}" alt="Image 2"></div>
+            <div class="slide"><img src="{% static 'images/winnie3.jpg' %}" alt="Image 3"></div>
+            <!-- Add more slides as needed -->
+        </div>
+
+        <button class="arrow arrow-left" onclick="prevSlide()">&#10094;</button>
+        <button class="arrow arrow-right" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>

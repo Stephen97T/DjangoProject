@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #f0f0f0;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 239, 175, 0.8); /* Adding opacity to the background */
+    padding: 0.7em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+    transition: color 0.3s ease-in-out;
+    transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    color: #00BFFF;
+    text-align: center;
+    text-align: top;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: auto;
+}
+
+.gallery {
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
